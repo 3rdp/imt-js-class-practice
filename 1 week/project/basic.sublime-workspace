@@ -1,0 +1,960 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"pass",
+				"passwd"
+			],
+			[
+				"iconv",
+				"iconv_strlen"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"cre",
+				"creatorID"
+			],
+			[
+				"conne",
+				"connectionGame"
+			],
+			[
+				"connec",
+				"connectionGame"
+			],
+			[
+				"soc",
+				"socket"
+			],
+			[
+				"so",
+				"socketPers"
+			],
+			[
+				"conn",
+				"connectGame"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"s",
+				"socketPers"
+			],
+			[
+				"e",
+				"elemID"
+			],
+			[
+				"Che",
+				"checkMyGame"
+			],
+			[
+				"socke",
+				"socketID"
+			],
+			[
+				"sok",
+				"socketID"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"nic",
+				"nickName"
+			],
+			[
+				"ty",
+				"typingOn"
+			],
+			[
+				"sti",
+				"stopTime"
+			],
+			[
+				"ni",
+				"nickName"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"f",
+				"false"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"nick",
+				"nickUser"
+			],
+			[
+				"use",
+				"nick_user"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"whi",
+				"while\twhile …"
+			],
+			[
+				"a",
+				"auth"
+			],
+			[
+				"c",
+				"city"
+			],
+			[
+				"cha",
+				"change-profile-form"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"sin",
+				"signin"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"mongo",
+				"mongodb"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"mi",
+				"middle-name"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"mas",
+				"message"
+			],
+			[
+				"me",
+				"messageField"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"han",
+				"handlerChat"
+			],
+			[
+				"ha",
+				"handlerGameCss"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"to",
+				"totalCost"
+			],
+			[
+				"ru",
+				"result"
+			],
+			[
+				"inlie",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"d",
+				"degree"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"url",
+				"urlParsed"
+			],
+			[
+				"user",
+				"userInput"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"pos",
+				"postMyObj"
+			],
+			[
+				"pas",
+				"passwd2"
+			],
+			[
+				"js",
+				"jsonObj"
+			],
+			[
+				"messa",
+				"messages"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"o",
+				"open"
+			],
+			[
+				"pa",
+				"pathname"
+			],
+			[
+				"User",
+				"UserEmail"
+			],
+			[
+				"get",
+				"getName"
+			],
+			[
+				"mo",
+				"Mongo"
+			],
+			[
+				"che",
+				"checkPasswd"
+			],
+			[
+				"fin",
+				"find"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"ena",
+				"onEnable"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"idle",
+				"idleStatus"
+			],
+			[
+				"id",
+				"idleStatus"
+			],
+			[
+				"fo",
+				"formData"
+			],
+			[
+				"dop",
+				"dopPhrase"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"ti",
+				"tabindex\tAttr"
+			],
+			[
+				"aut",
+				"autofocus\tAttr"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"chil",
+				"ChildEmpty"
+			],
+			[
+				"se",
+				"secondsTimer"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"ea",
+				"each"
+			],
+			[
+				"opt",
+				"option_val"
+			],
+			[
+				"getF",
+				"getFuelAmound"
+			],
+			[
+				"fu",
+				"fuelAmound"
+			],
+			[
+				"star",
+				"startDrive"
+			],
+			[
+				"turn",
+				"turnOn"
+			],
+			[
+				"Jho",
+				"John"
+			],
+			[
+				"fi",
+				"firstNumber"
+			],
+			[
+				"nu",
+				"number1"
+			],
+			[
+				"num",
+				"number1"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"eac",
+				"eachInputValue"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"te",
+				"testStr"
+			],
+			[
+				"ar",
+				"arrDouble"
+			],
+			[
+				"pr",
+				"prmt"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "index.html",
+			"file_size": 0,
+			"file_write_time": 131207620354605338,
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sctipt.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Администратор/Documents/Sasha/1 week/project"
+	],
+	"file_history":
+	[
+		"/C/nodeMay/fire_poker/server.js",
+		"/C/nodeMay/fire_poker/package.json",
+		"/C/Users/Администратор/Desktop/fire_poker/app/routes.js",
+		"/C/OpenServer/domains/hello.com/urok5/route.php",
+		"/C/OpenServer/domains/hello.com/urok5/view/product.tpl",
+		"/C/OpenServer/domains/hello.com/dz3/index.php",
+		"/C/OpenServer/domains/hello.com/urok5/view/catalog.tpl",
+		"/C/OpenServer/domains/hello.com/urok5/view/template.tpl",
+		"/C/OpenServer/domains/hello.com/urok5/db/goods.base",
+		"/C/OpenServer/domains/hello.com/urok5/index.php",
+		"/C/OpenServer/domains/hello.com/urok5/view/route.php",
+		"/C/OpenServer/domains/hello.com/urok5/view/main.php",
+		"/C/OpenServer/domains/hello.com/urok5/view/tamplate.tpl",
+		"/C/OpenServer/domains/hello.com/urok5/test.php",
+		"/C/OpenServer/domains/hello.com/urok5/view/404.php",
+		"/C/OpenServer/domains/hello.com/urok5/view/contacts.php",
+		"/C/OpenServer/domains/hello.com/urok5/view/about.php",
+		"/C/OpenServer/domains/hello.com/dz3/main.php",
+		"/C/OpenServer/domains/mvc.com/web/core/db.php",
+		"/C/OpenServer/domains/mvc.com/web/models/model_user.php",
+		"/C/OpenServer/domains/mvc.com/web/lib/functions.php",
+		"/C/OpenServer/domains/mvc.com/web/controllers/controller_user.php",
+		"/C/OpenServer/domains/mvc.com/web/views/sign_view.php",
+		"/C/OpenServer/domains/mvc.com/web/views/template_view.php",
+		"/C/OpenServer/domains/shop.com/include/db_connect.php",
+		"/C/OpenServer/domains/shop.com/index.php",
+		"/C/OpenServer/domains/mvc/web/views/template_view.php",
+		"/C/node/ChessGame.io-master/views/pages/game.ejs",
+		"/C/node/ChessGame.io-master/app/routes.js",
+		"/C/node/ChessGame.io-master/views/pages/selectGame.ejs",
+		"/C/node/ChessGame.io-master/package.json",
+		"/C/node/ChessGame.io-master/views/css/main.css",
+		"/C/nodeMay/Project_git/index.html",
+		"/C/Users/Администратор/Desktop/Chess/Chess/pawn.js",
+		"/C/Users/Администратор/Desktop/Chess/Chess/jquery-2.2.3.min.js",
+		"/C/Users/Администратор/Desktop/Chess/Chess/super_figure.js",
+		"/C/Users/Администратор/Desktop/Chess/Chess/chess.js",
+		"/C/Users/Администратор/Desktop/Chess/Chess/bishop.js",
+		"/C/node/ChessGame.io-master/server.js",
+		"/C/node/ChessGame.io-master/views/css/style.css",
+		"/C/node/socketIo/app.js",
+		"/C/node/socketIo/views/index.html",
+		"/C/node/ChessGame.io-master/config/database.js",
+		"/C/OpenServer/domains/hello.com/urok4/index",
+		"/C/OpenServer/domains/hello.com/urok4/index.php",
+		"/C/OpenServer/domains/hello.com/urok4/function.php",
+		"/C/OpenServer/domains/hello.com/urok4/function",
+		"/D/dz2/index.php",
+		"/C/OpenServer/domains/hello.com/dz/index.php",
+		"/C/OpenServer/domains/mvc.com/application/controllers/controller_portfolio.php",
+		"/C/Users/Администратор/Downloads/lessons 01.10.16/learn.com/test.php",
+		"/C/OpenServer/domains/mvc.com/index.php",
+		"/C/OpenServer/domains/learn.com/test.php",
+		"/C/OpenServer/domains/mvc.com/application/core/model.php",
+		"/C/OpenServer/domains/mvc.com/application/core/controller.php",
+		"/C/OpenServer/domains/mvc.com/application/controllers/controller_404.php",
+		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/processaddmovie.php",
+		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/addmovie.php",
+		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/test.php",
+		"/C/OpenServer/domains/site.com/index.html",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName+печатает/app.js",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName+печатает/views/index.html",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName (недоделал)/app.js",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName (недоделал)/views/index.html",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName (недоделал)/package.json",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/views/index.html",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/app.js",
+		"/C/nodeMay/project_test/app.js",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/package.json",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat/views/index.html",
+		"/C/nodeMay/fire_poker/handlers/registration/registration.css",
+		"/C/nodeMay/project_test/views/tamplates/tamplates.ejs",
+		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/index.html",
+		"/C/nodeMay/project_test/package.json",
+		"/C/node/socketIo/package.json",
+		"/C/node/socketIo/node_modules/index.js",
+		"/C/OpenServer/domains/hello.com/mass/index.php",
+		"/C/OpenServer/domains/hello.com/main.php",
+		"/C/nodeMay/project_test/config/index.js",
+		"/C/nodeMay/project_test/router.js",
+		"/C/nodeMay/project_test/config/config.json",
+		"/C/nodeMay/project_test/node_modules/nconf/lib/nconf/stores/file.js",
+		"/C/nodeMay/project_test/node_modules/nconf/lib/nconf.js",
+		"/C/nodeMay/project_test/public/js/npm.js",
+		"/C/nodeMay/project_test/public/css/main.css",
+		"/C/Users/Администратор/Desktop/public/js/npm.js",
+		"/C/Users/Администратор/Desktop/public/js/main.js",
+		"/C/node/nvc-model/publick/css/style.css",
+		"/C/node/nvc-model/views/profile.ejs",
+		"/C/node/nvc-model/config/auth.js",
+		"/C/node/nvc-model/router/index.js",
+		"/C/node/nvc-model/views/template/template.ejs",
+		"/C/node/nvc-model/app.js",
+		"/C/node/Registration/server/router.js",
+		"/C/node/Registration/server/user/index.js",
+		"/C/node/nvc-model/models/user.js",
+		"/C/node/Registration/server/user/users.json",
+		"/C/node/Registration/server/files/index.js",
+		"/C/node/Registration/server/files/author.html",
+		"/C/node/nvc-model/publick/js/main.js",
+		"/C/node/Registration/server/files/index.html",
+		"/C/node/ServerLast/files/index.html",
+		"/C/node/ServerLast/index.html",
+		"/C/node/nvc-model/views/index.ejs",
+		"/C/node/nvc-model/views/registration.ejs",
+		"/C/node/nvc-model/publick/js/npm.js",
+		"/C/node/nvc-model/publick/js/bootstrap.min.js",
+		"/C/node/nvc-model/publick/style.css",
+		"/C/node/nvc-model/config/database.js",
+		"/C/node/nvc-model/views/signin.ejs",
+		"/C/node/nvc-model/views/signup.ejs",
+		"/C/node/nvc-model/config/passport.js",
+		"/C/node/Auth&Chat/config/auth.js",
+		"/C/nodeMay/fire_poker/handlers/main/main.html",
+		"/C/nodeMay/project_test/views/pages/main.ejs",
+		"/C/nodeMay/project_test/views/partials/header.ejs",
+		"/C/nodeMay/fire_poker/handlers/main/main.css",
+		"/C/nodeMay/project_test/views/pages/404.ejs",
+		"/C/nodeMay/project_test/views/pages/500.ejs",
+		"/C/nodeMay/project_test/views/pages/game.ejs",
+		"/C/nodeMay/project_test/views/pages/passRecover.ejs",
+		"/C/nodeMay/project_test/views/pages/signup.ejs",
+		"/C/nodeMay/project_test/views/index.ejs",
+		"/C/nodeMay/fire_poker/handlers/game/game.css",
+		"/C/nodeMay/fire_poker/handlers/game/game.js",
+		"/C/nodeMay/fire_poker/handlers/game/game.html",
+		"/C/nodeMay/fire_poker/auth/app/models/user.js",
+		"/C/nodeMay/fire_poker/auth/app/routes.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\");\n",
+			"\";\n",
+			");\n",
+			"alert",
+			");\n",
+			"app.get('/logout', function (req, res) {\n        req.logout();\n        res.redirect('/');\n    });",
+			");\n",
+			"cleaning_field",
+			"app.get('/profile', isLoggedIn, function (req, res) {\n        res.render('pages/profile.ejs', {\n            user: req.user // get the user out of session and pass to template\n        });\n    });",
+			"elemID",
+			"();\n",
+			"socket.on('Client write', function(name){\n        $('#messages').append(\"<li class='write'>\" + name + \" печатает </li>\");\n      })",
+			"socket.on('hi', function(){\n        $('#messages').append(\"<li>\" + nickName + \" connected </li>\");\n      });",
+			".giveName input{\n\n      }",
+			".giveName{\n        position: fixed;\n        z-index: 100;\n        top: 0;\n        left: 0;\n        width: 100vw;\n        height: 100vh;\n        background: rgba(0,0,0,0.7);\n      }",
+			"socket.on('chat message', function(msg){\n        $('#messages').append('<li>' + msg + \"</li>\")\n      });",
+			"city",
+			"lname",
+			">\n",
+			"country",
+			",\n",
+			">\n",
+			"$(document).on(\"click\",\"a.change-profile\", function(){\n\t\t$('.change-profile-form').slideToggle();\n\t})",
+			".change-profile {\n\tdisplay: block;\n\tmax-width: 200px;\n\tbackground-color: #333333;\n\tborder-radius: 10px;\n\tborder: 1px solid #000;\n\ttext-align: center;\n\theight: 30px;\n\tpadding-top: 10px;\n}",
+			"\"],",
+			".change-profile-form {\n\tmax-width: 500px;\n\tmargin: 20px auto;\n\tpadding: 15px;\n\tborder-radius: 10px;\n\tborder: 1px solid #ebebeb;\n}",
+			"\">\n",
+			"Город",
+			"Country",
+			"\">\n",
+			"ul li {\n\tlist-style-type: none;\n\tdisplay: inline-block;\n\tmargin-right: 20px;\n}",
+			"\">\n",
+			"<% if(page == \"index\"){%>\n\t<% include ../index %>\n<%}%>",
+			"app.get('/registration', function(req, res){\n\tres.render('template/template.ejs', {page:\"registration\", test: \"hello\"})\n});",
+			"=\"\"></",
+			"></",
+			"min",
+			"signup",
+			"<% if(page == \"index\"){%>\n\t<% include ../index %>\n<%}%>",
+			">",
+			"){});\n",
+			"){});",
+			"app.get('/', function(req, res){\n\n});",
+			"app.use(function(req, res){\n\tres.type('text/plain');\n\tres.status(404);\n\tres.send(\"404 - not found\");\n});",
+			"newUser",
+			"usernameField : 'email',",
+			"usernameField",
+			" // if (condition) {\n // \t# code...\n // }",
+			",\n",
+			"();\n",
+			"Cashbox",
+			");\n",
+			")\n",
+			",\n",
+			");\n",
+			"'));\n",
+			"roun",
+			"$(document).on(\"click\", '.minus', function(){\n\t\tvar quantity = Number( Math.floor($('.quantity').text()));\n\t\tif(quantity === 0){\n\t\t\treturn false;\n\t\t} else {\n\t\t\tquantity--;\n\t\t\t$('.quantity').text(quantity);\n\t\t}\n\t})",
+			",\n",
+			"2",
+			",\n",
+			"Cashbox.prototype.increase = function clickPlus(){\n\t\t\n\t}",
+			"span.minus {\n\tfont-size: 20px;\n\tcolor:red;\n\ttext-align: center;\n}\nspan.plus {\n\tfont-size: 20px;\n\tcolor:green;\n\ttext-align: center;\n}",
+			"span.plus {\n\tfont-size: 16px;\n\tcolor:green;\n}",
+			"span.minus {\n\tfont-size: 16px;\n\tcolor:red;\n}",
+			"p {\n\tfont-size: 18px;\n}",
+			".column-left {\n\tdisplay: inline-block;\n\twidth: 49%;\n\tvertical-align: top;\n}",
+			"\n\t\t<p data-quantity=\"500\">500 <span class=\"minus\">-</span><span class=\"quantity\">0</span><span class=\"plus\">+</span></p>",
+			"<p data-quantity=\"500\">500 <span class=\"minus\">-</span><span class=\"quantity\">0</span><span class=\"plus\">+</span></p>",
+			">\n",
+			"\";\n",
+			"nameOfUser",
+			"://",
+			">');\n",
+			">",
+			"();\n",
+			";\n",
+			"();\n",
+			");\n",
+			"]);",
+			");",
+			"parseInt",
+			"?\");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"nameOfUser_str"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sctipt.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "basic.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
