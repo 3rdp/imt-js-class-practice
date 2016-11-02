@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Массивы</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css">
+</head>
+<body>
+	<h1 class="ui header centered">Занятие 5</h1>
+	<h1 class="ui header centered">Массивы</h1>
+
+	<div class="ui styled accordion">
+	  <div class="title">
+	    <i class="dropdown icon"></i>
+	    Калькулятор через String.split() через DOM
+	  </div>
+	  <div class="content">
+			<div class="ui form">
+			<div class="field">
+				<label>Массив чисел через запятую</label>
+		    	<div class="ui input error">
+			    	<input type="text" id="input_calc1_userInput">
+				</div>
+			</div>
+			<div class="field">
+				<label>Оператор</label>
+				<div class="ui input">
+			    	<input type="text" id="input_calc1_operator">
+				</div>
+			</div>
+	    	<button class="ui primary button" id="calc1_button">Посчитать</button>
+	    	</div>
+			<p id="calc1_result"></p>
+	  </div>
+	  <div class="title">
+	    <i class="dropdown icon"></i>
+	    Калькулятор через String.split()
+	  </div>
+	  <div class="content">
+			<div class="ui form">
+	    	<button class="ui primary button" id="calc0_button">Запуск</button>
+	    	</div>
+			<p id="result"></p>
+	  </div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>
+	<script src="js/script1.js"></script>
+</body>
+</html>
