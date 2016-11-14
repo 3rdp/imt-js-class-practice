@@ -503,6 +503,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "5 week/index.html",
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -540,15 +548,21 @@
 	},
 	"expanded_folders":
 	[
-		"/C/code/imt-js-class-practice/2 week/js"
+		"/C/code/imt-js-class-practice/3 week/js",
+		"/C/code/imt-js-class-practice/5 week"
 	],
 	"file_history":
 	[
+		"/C/code/imt-js-class-practice/3 week/homework1.html",
+		"/C/code/imt-js-class-practice/3 week/js/script1.js",
+		"/C/code/imt-js-class-practice/4 week/calc/examples/calc.html",
+		"/C/code/imt-js-class-practice/3 week/js/script2.js",
+		"/C/code/imt-js-class-practice/basic.sublime-project",
+		"/C/code/imt-js-class-practice/4 week/calc/calculator_template/calculator_template.sublime-project",
 		"/C/code/imt-js-class-practice/1 week/project/index.html",
 		"/C/code/imt-js-class-practice/1 week/project/basic.sublime-project",
 		"/C/code/imt-js-class-practice/1 week/project/basic.sublime-workspace",
 		"/C/code/imt-js-class-practice/3 week/homework2.html",
-		"/C/code/imt-js-class-practice/3 week/homework1.html",
 		"/C/code/imt-js-class-practice/1 week/project/sctipt.js",
 		"/C/nodeMay/fire_poker/server.js",
 		"/C/nodeMay/fire_poker/package.json",
@@ -666,12 +680,7 @@
 		"/C/nodeMay/fire_poker/handlers/main/main.html",
 		"/C/nodeMay/project_test/views/pages/main.ejs",
 		"/C/nodeMay/project_test/views/partials/header.ejs",
-		"/C/nodeMay/fire_poker/handlers/main/main.css",
-		"/C/nodeMay/project_test/views/pages/404.ejs",
-		"/C/nodeMay/project_test/views/pages/500.ejs",
-		"/C/nodeMay/project_test/views/pages/game.ejs",
-		"/C/nodeMay/project_test/views/pages/passRecover.ejs",
-		"/C/nodeMay/project_test/views/pages/signup.ejs"
+		"/C/nodeMay/fire_poker/handlers/main/main.css"
 	],
 	"find":
 	{
@@ -791,8 +800,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "5 week/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

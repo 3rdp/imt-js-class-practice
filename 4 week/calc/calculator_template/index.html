@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="semantic-ui/semantic.min.js"></script>
+    <title>Electron Simple Calculator</title>
+  </head>
+  <body>
+      <form action="#">
+        <div id="input_calc" class="ui input focus">
+          <input style="font-size: 12pt;" type="text" id="txt" autofocus>
+        </div><br><br>
+        <input id="button" class="ui green button" type="button" value="  1  " >
+        <input id="button" class="ui green button" type="button" value="  2  " class="nums" >
+        <input id="button" class="ui green button" type="button" value="  3  " class="nums" >
+        <input id="button" class="ui blue button" type="button" value="  +  " >
+        <br /><br />
+        <input id="button" class="ui green button" type="button" value="  4  " class="nums" >
+        <input id="button" class="ui green button" type="button" value="  5  " class="nums" >
+        <input id="button" class="ui green button" type="button" value="  6  " class="nums" >
+        <input id="button" class="ui blue button" type="button" value="  -  " >
+        <br /><br />
+        <input id="button" class="ui green button" type="button" value="  7  " class="nums" >
+        <input id="button" class="ui green button" type="button" value="  8  " class="nums" >
+        <input id="button" class="ui green button" type="button" value="  9  " class="nums" >
+        <input id="button" class="ui blue button" type="button" value="  x  " >
+        <br /><br />
+        <input id="button" class="ui red button" type="button" value="  C  " >
+        <input id="button" class="ui green button" type="button" value="  0  " class="nums" >
+        <input id="button" class="ui orange button" type="button" value="  =  " >
+        <input id="button" class="ui blue button" type="button" value="  /  " >
+        <script>
+          var txt = document.getElementById('txt'); // сохраняем результат прямо в value сюда
+        </script>
+      </form>
+</body>
+</html>

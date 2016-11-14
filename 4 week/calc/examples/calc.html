@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Калькулятор</title>
+
+    </head>
+    <body>
+        
+        <script>
+            
+            var userInput = prompt("Введите числа через запятую", ''),
+                operator = prompt("Введите оператор", ''),
+                result = 0;
+            
+            userInput = userInput.split(',');
+            
+            console.log(userInput);
+            console.log(operator);
+            
+            
+            result = calc();
+            document.write(result);
+            
+            function calc()
+            
+                {
+                     var result;
+
+                        if(operator == "+")
+                            {
+                                result = sum(userInput);
+                            }
+                        else if(operator == "-")
+                            {
+                                result = difference(userInput);
+                            }
+
+                        else if(operator == "*")
+                            {
+                                result = product(userInput);
+                            }
+                        else if(operator == "/")
+                            {
+                                result = division(userInput);
+                            }
+
+                        return result;
+                }
+            
+            function sum(arr)
+            {
+                var res = arr.reduce(function(a,b)
+                            {
+                                return Number(a) + Number(b);
+                            });
+                return res;
+            }
+            
+            function difference(arr)
+            {
+                var res = arr.reduce(function(a,b)
+                    {
+                        return Number(a) - Number(b);
+                    });
+                return res;
+            }
+            
+            function product(arr)
+            {
+                var res = arr.reduce(function(a,b)
+                    {
+                        return Number(a) * Number(b);
+                    });
+                return res;
+            }
+            
+            function division(arr)
+            {
+                var res = arr.reduce(function(a,b)
+                    {
+                        return Number(a) / Number(b);
+                    });
+                return res;
+            }
+            
+        </script>
+        
+        
+    </body>
+</html>
