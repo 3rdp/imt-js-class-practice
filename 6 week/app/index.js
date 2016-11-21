@@ -2,7 +2,7 @@ window.onload = function () {
     var linkAbout = window.document.getElementById('link-about'),
         linkContainer = window.document.getElementById('link-container');
 
-    linkAbout.onclick = function (event) {
+    linkAbout.onclick = function (event) { // событие onclick
         event.preventDefault();
         // console.log (event.toElement.id);
         window.document.querySelector('#template-home').outerHTML = getTemplate(event.toElement.id);
