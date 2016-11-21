@@ -9,7 +9,7 @@ window.onload = function () {
 
     }
 
-    linkContainer.onclick = function (event) {
+    linkContainer.onclick = function (event) { // onclick можно повесить на контейнер и ловить событие на его детях
         event.preventDefault();
         var templateName = event.target.attributes.href.value;
         if (templateName && templateName !== '#')
