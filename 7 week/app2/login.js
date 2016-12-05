@@ -1,10 +1,36 @@
 // SOURCE 5 week/app/login.js
 window.onload = function() {
-	var ajaxServiceObj = ajaxService();
-		objUsers = ajaxServiceObj.getJSON('./auth.json');
-
 	console.info('Script login started');
-	console.log(objUsers);
 
 	var btn = document.getElementById('login-btn');
+
+	btn.onclick = function() {
+		console.info('Сработал клик!');
+		var login,
+			pass,
+			ajaxServiceObj = ajaxService(),
+			arrUsers = ajaxServiceObj.getJSON('./auth.json').users;
+
+		login = document.getElementById('login').value;
+		pass = document.getElementById('login-pass').value;
+
+		var check;
+		arrUsers.forEach(function(v) {
+			if (login == v.name && pass == v.age) {
+				alert('Успешная авторизация');
+				window.sessionStorage.setItem('auth', true);
+				window.location.replace('index.html');
+				check = true;
+			}
+		})
+		
+		if (!check) {
+			document.getElementById('login-error').innerHTML = 'Неверные данные!';
+
+			setTimeout(function(){
+				document.getElementById('login-error').innerHTML = ''
+			}, 3000);
+			
+		}
+	}
 }
