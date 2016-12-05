@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Занятие 15 05.12.2016 Пн -->
+<!--  -->
+	<meta charset="UTF-8">
+	<title>JSON</title>
+</head>
+<body>
+	<script>
+		/**
+		 * Переводим объект в JSON
+		 * Хотя можно и полностью через консоль var obj и copy(JSON.stringify())
+		 *
+		 */
+		function objToJson(o) {
+			var obj = o || {
+				users: [
+					{name: 'Misha', age: 32 }, 
+					{name: 'Tanya', age: 27 },
+					{name: 'Sasha', age: 24 }
+				]
+			};
+
+			console.log('obj', obj);
+
+			var json = JSON.stringify(obj);
+
+			console.log('json', json) // потом копируем из консоли
+		}
+
+		// objToJson({name: 'Sanya'});
+		// objToJson();
+
+		/**
+		 * Запрашиваем JSON нативно
+		 *
+		 */
+
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function XHRonReady(res) {
+			// console.log(res); // не нужная фигня, все данные хранятся в самом экземпляре XMLHttpRequest
+
+			console.log(xhr); // readyState меняется от 1 до 4
+			/**
+			 * 1 - OPENED Метод open() был вызван
+			 * 2 - HEADERS RECEIVED Были получены заголовки
+			 * 3 - LOADING Идет прием тела ответа
+			 * 4 - DONE Прием ответа завершен
+			 */
+			if (xhr.readyState === 4 && xhr.status == 200) {
+				console.info('DONE');
+				try {
+					var result = JSON.parse(xhr.response);
+					console.log('result', result);
+					
+				} catch(e) {
+					console.log("Структура ответа не JSON", e);
+					// var XHRError = // можно скинуть error на сервер, чтобы там знали об ошибке.
+				}
+			}
+		}
+		xhr.open('GET', './auth.json', true); // работаем с асинхронными запросами, то есть нужно обязательно вешать обработчик
+		xhr.send(null); // передаем null, хотя можно и ничего
+
+	</script>
+</body>
+</html>
