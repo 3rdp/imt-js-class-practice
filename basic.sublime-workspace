@@ -4,16 +4,40 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"obj",
+				"objToJson"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"me",
+				"messageId"
+			],
+			[
+				"mess",
+				"messageElem"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"inpu",
+				"inputElems"
+			],
+			[
 				"in",
 				"innerHTML"
 			],
 			[
 				"test",
 				"test-element"
-			],
-			[
-				"get",
-				"getElementByTagName"
 			],
 			[
 				"var",
@@ -222,10 +246,6 @@
 			[
 				"mas",
 				"message"
-			],
-			[
-				"me",
-				"messageField"
 			],
 			[
 				"han",
@@ -488,52 +508,58 @@
 				"font-size"
 			],
 			[
-				"fun",
-				"function"
-			],
-			[
 				"te",
 				"testStr"
 			],
 			[
 				"ar",
 				"arrDouble"
-			],
-			[
-				"pr",
-				"prmt"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Главная страница</title>\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.css\">\n\n\t\t<style type=\"text/css\">\n\t\t  body {\n\t\t    background-color: #FFFFFF;\n\t\t  }\n\t\t  .ui.menu .item img.logo {\n\t\t    margin-right: 1.5em;\n\t\t  }\n\t\t  .main.container {\n\t\t    margin-top: 7em;\n\t\t  }\n\t\t  .wireframe {\n\t\t    margin-top: 2em;\n\t\t  }\n\t\t  .ui.footer.segment {\n\t\t    margin: 5em 0em 0em;\n\t\t    padding: 5em 0em;\n\t\t  }\n\t    </style>\n\t</head>\n<body>\n  <div class=\"ui fixed inverted menu\">\n    <div class=\"ui container\">\n      <a href=\"#\" class=\"header item\">\n        <img class=\"logo\" src=\"http://semantic-ui.com/examples/assets/images/logo.png\">\n        Project Name\n      </a>\n      <a href=\"#\" class=\"item\">Home</a>\n      <div class=\"ui simple dropdown item\">\n        Dropdown <i class=\"dropdown icon\"></i>\n        <div class=\"menu\">\n          <a class=\"item\" href=\"#\">Link Item</a>\n          <a class=\"item\" href=\"#\">Link Item</a>\n          <div class=\"divider\"></div>\n          <div class=\"header\">Header Item</div>\n          <div class=\"item\">\n            <i class=\"dropdown icon\"></i>\n            Sub Menu\n            <div class=\"menu\">\n              <a class=\"item\" href=\"#\">Link Item</a>\n              <a class=\"item\" href=\"#\">Link Item</a>\n            </div>\n          </div>\n          <a class=\"item\" href=\"#\">Link Item</a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"ui main text container\">\n    <h1 class=\"ui header\">Semantic UI Fixed Template</h1>\n    <p>This is a basic fixed menu template using fixed size containers.</p>\n    <p>A text container is used for the main container, which is useful for single column layouts</p>\n    <img name=\"test-name\" class=\"wireframe\" src=\"http://semantic-ui.com/examples/assets/images/wireframe/media-paragraph.png\">\n    <img class=\"wireframe\" src=\"http://semantic-ui.com/examples/assets/images/wireframe/paragraph.png\">\n    <img class=\"wireframe\" src=\"http://semantic-ui.com/examples/assets/images/wireframe/paragraph.png\">\n    <img class=\"wireframe\" src=\"http://semantic-ui.com/examples/assets/images/wireframe/paragraph.png\">\n    <img class=\"wireframe\" src=\"http://semantic-ui.com/examples/assets/images/wireframe/paragraph.png\">\n    <img class=\"wireframe\" src=\"http://semantic-ui.com/examples/assets/images/wireframe/paragraph.png\">\n    <img class=\"wireframe\" src=\"http://semantic-ui.com/examples/assets/images/wireframe/paragraph.png\">\n  </div>\n\n  <div class=\"ui inverted vertical footer segment\">\n    <div class=\"ui center aligned container\">\n      <div id=\"parent-element\" class=\"ui stackable inverted divided grid\">\n        <div class=\"three wide column\">\n          <h4 class=\"ui inverted header\">Group 1</h4>\n          <div class=\"ui inverted link list\">\n            <a href=\"#\" class=\"item\">Link One</a>\n            <a href=\"#\" class=\"item\">Link Two</a>\n            <a href=\"#\" class=\"item\">Link Three</a>\n            <a href=\"#\" class=\"item\">Link Four</a>\n          </div>\n        </div>\n        <div id=\"prev\" class=\"three wide column\">\n          <h4 class=\"ui inverted header\">Group 2</h4>\n          <div class=\"ui inverted link list\">\n            <a href=\"#\" class=\"item\">Link One</a>\n            <a href=\"#\" class=\"item\">Link Two</a>\n            <a href=\"#\" class=\"item\">Link Three</a>\n            <a href=\"#\" class=\"item\">Link Four</a>\n          </div>\n        </div>\n        <div id=\"test-element\" class=\"three wide column\">\n          <h4 class=\"ui inverted header\">Group 3</h4>\n          <div class=\"ui inverted link list\">\n            <a href=\"#\" class=\"item\">Link One</a>\n            <a href=\"#\" class=\"item\">Link Two</a>\n            <a href=\"#\" class=\"item\">Link Three</a>\n            <a href=\"#\" class=\"item\">Link Four</a>\n          </div>\n        </div>\n        <div id=\"next-element\" class=\"seven wide column\">\n          <h4 class=\"ui inverted header\">Footer Header</h4>\n          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>\n        </div>\n      </div>\n      <div class=\"ui inverted section divider\"></div>\n      <img src=\"http://semantic-ui.com/examples/assets/images/logo.png\" class=\"ui centered mini image\">\n      <div class=\"ui horizontal inverted small divided link list\">\n        <a class=\"item\" href=\"#\">Site Map</a>\n        <a class=\"item\" href=\"#\">Contact Us</a>\n        <a class=\"item\" href=\"#\">Terms and Conditions</a>\n        <a class=\"item\" href=\"#\">Privacy Policy</a>\n      </div>\n    </div>\n  </div>\n\n\t<script src=\"./index.js\"></script>\n</body>\n</html>",
-			"file": "5 week/app/index.html",
-			"file_size": 4746,
-			"file_write_time": 131237876878598421,
+			"file": "7 week/app2/auth.json",
 			"settings":
 			{
-				"buffer_size": 4615,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "index.html"
-			}
-		},
-		{
-			"file": "5 week/index_(DOM).html",
-			"settings":
-			{
-				"buffer_size": 275,
+				"buffer_size": 175,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "5 week/app/index.js",
+			"file": "7 week/app2/login.html",
 			"settings":
 			{
-				"buffer_size": 1949,
+				"buffer_size": 1677,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "7 week/app2/index.html",
+			"settings":
+			{
+				"buffer_size": 2121,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "7 week/app2/login.js",
+			"settings":
+			{
+				"buffer_size": 880,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "7 week/app2/services/ajax_service.js",
+			"settings":
+			{
+				"buffer_size": 713,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -546,7 +572,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 173.0,
 		"last_filter": "insta",
 		"selected_items":
 		[
@@ -555,7 +581,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 432.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -575,9 +601,53 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week/app",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/6 week/app2",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/6 week/app2/templates",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/services"
 	],
 	"file_history":
 	[
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/login.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/login.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week/app/login.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/services/ajax_service.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/ajax_service.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/auth.json",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/basic.sublime-project",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/basic.sublime-workspace",
+		"/C/Users/student/Downloads/03 12 2016/dzb.com/web/models/model_category.php",
+		"/C/Users/student/Downloads/03 12 2016/dzb.com/web/controllers/controller_category.php",
+		"/C/OpenServer/domains/mvc.com/web/controllers/controller_goods.php",
+		"/C/OpenServer/domains/mvc.com/web/models/model_goods.php",
+		"/C/OpenServer/domains/mvc.com/web/controllers/controller_categories.php",
+		"/C/OpenServer/domains/mvc.com/web/models/model_categories.php",
+		"/C/OpenServer/domains/dz2.com/view/goods.php",
+		"/C/Users/student/Downloads/03 12 2016/примеры/model_category.php",
+		"/C/Users/student/Downloads/03 12 2016/dzb.com/web/core/route.php",
+		"/C/Users/student/Downloads/03 12 2016/примеры/controller_category.php",
+		"/C/OpenServer/domains/mvc.commm/web/views/goods_view.php",
+		"/C/OpenServer/domains/mvc.com/web/core/route.php",
+		"/C/OpenServer/domains/mvc.com/web/views/template_view.php",
+		"/C/OpenServer/domains/mvc.com/web/views/goods_view.php",
+		"/C/OpenServer/domains/mvc.com/web/views/good_view.php",
+		"/C/OpenServer/domains/dz2.com/css/style.css",
+		"/C/OpenServer/domains/mvc.com/web/static/css/style.css",
+		"/C/OpenServer/domains/dz2.com/view/main.php",
+		"/C/OpenServer/domains/mvc.com/web/core/db.php",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app/filter.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week/app/index.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/filter.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week/app/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week/index_(DOM).html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/.gitignore",
 		"/C/Users/Администратор/Downloads/id_rsa",
 		"/C/Users/Администратор/Documents/Sasha/imt-js-class-practice/5 week/index_(DOM).html",
 		"/C/Users/Администратор/Documents/Sasha/imt-js-class-practice/5 week/app/singup.html",
@@ -611,12 +681,10 @@
 		"/C/OpenServer/domains/hello.com/urok5/view/contacts.php",
 		"/C/OpenServer/domains/hello.com/urok5/view/about.php",
 		"/C/OpenServer/domains/hello.com/dz3/main.php",
-		"/C/OpenServer/domains/mvc.com/web/core/db.php",
 		"/C/OpenServer/domains/mvc.com/web/models/model_user.php",
 		"/C/OpenServer/domains/mvc.com/web/lib/functions.php",
 		"/C/OpenServer/domains/mvc.com/web/controllers/controller_user.php",
 		"/C/OpenServer/domains/mvc.com/web/views/sign_view.php",
-		"/C/OpenServer/domains/mvc.com/web/views/template_view.php",
 		"/C/OpenServer/domains/shop.com/include/db_connect.php",
 		"/C/OpenServer/domains/shop.com/index.php",
 		"/C/OpenServer/domains/mvc/web/views/template_view.php",
@@ -671,45 +739,11 @@
 		"/C/node/socketIo/node_modules/index.js",
 		"/C/OpenServer/domains/hello.com/mass/index.php",
 		"/C/OpenServer/domains/hello.com/main.php",
-		"/C/nodeMay/project_test/config/index.js",
-		"/C/nodeMay/project_test/router.js",
-		"/C/nodeMay/project_test/config/config.json",
-		"/C/nodeMay/project_test/node_modules/nconf/lib/nconf/stores/file.js",
-		"/C/nodeMay/project_test/node_modules/nconf/lib/nconf.js",
-		"/C/nodeMay/project_test/public/js/npm.js",
-		"/C/nodeMay/project_test/public/css/main.css",
-		"/C/Users/Администратор/Desktop/public/js/npm.js",
-		"/C/Users/Администратор/Desktop/public/js/main.js",
-		"/C/node/nvc-model/publick/css/style.css",
-		"/C/node/nvc-model/views/profile.ejs",
-		"/C/node/nvc-model/config/auth.js",
-		"/C/node/nvc-model/router/index.js",
-		"/C/node/nvc-model/views/template/template.ejs",
-		"/C/node/nvc-model/app.js",
-		"/C/node/Registration/server/router.js",
-		"/C/node/Registration/server/user/index.js",
-		"/C/node/nvc-model/models/user.js",
-		"/C/node/Registration/server/user/users.json",
-		"/C/node/Registration/server/files/index.js",
-		"/C/node/Registration/server/files/author.html",
-		"/C/node/nvc-model/publick/js/main.js",
-		"/C/node/Registration/server/files/index.html",
-		"/C/node/ServerLast/files/index.html",
-		"/C/node/ServerLast/index.html",
-		"/C/node/nvc-model/views/index.ejs",
-		"/C/node/nvc-model/views/registration.ejs",
-		"/C/node/nvc-model/publick/js/npm.js",
-		"/C/node/nvc-model/publick/js/bootstrap.min.js",
-		"/C/node/nvc-model/publick/style.css",
-		"/C/node/nvc-model/config/database.js",
-		"/C/node/nvc-model/views/signin.ejs",
-		"/C/node/nvc-model/views/signup.ejs",
-		"/C/node/nvc-model/config/passport.js",
-		"/C/node/Auth&Chat/config/auth.js"
+		"/C/nodeMay/project_test/config/index.js"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -724,6 +758,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DONE",
+			"*\n",
+			"]\n",
+			"good",
+			"Goods",
+			"block-tovar",
+			"style-tit",
+			"styl",
+			"stil",
+			"tovar",
 			"inner",
 			"var",
 			"\\n",
@@ -840,35 +884,34 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "5 week/app/index.html",
+					"file": "7 week/app2/auth.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4615,
+						"buffer_size": 175,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3100,
-								3100
+								43,
+								43
 							]
 						],
 						"settings":
 						{
-							"auto_name": "index.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 712.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -876,24 +919,54 @@
 				},
 				{
 					"buffer": 1,
-					"file": "5 week/index_(DOM).html",
-					"semi_transient": false,
+					"file": "7 week/app2/login.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 275,
+						"buffer_size": 1677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								141,
-								141
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "7 week/app2/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -903,20 +976,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "5 week/app/index.js",
+					"buffer": 3,
+					"file": "7 week/app2/login.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1949,
+						"buffer_size": 880,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1946,
-								1946
+								679,
+								679
 							]
 						],
 						"settings":
@@ -924,10 +997,39 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 503.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "7 week/app2/services/ajax_service.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1015,7 +1117,7 @@
 		}
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 229.0,
