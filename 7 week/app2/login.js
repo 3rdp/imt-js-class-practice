@@ -35,10 +35,6 @@ window.onload = function() {
 			pass,
 			ajaxServiceObj = ajaxService(),
 			// arrUsers = ajaxServiceObj.getJSON('./auth.json').users;
-			arrUsers = ajaxServiceObj.getJSONasync('./auth.json', function(res) {
-				return res.users;
-			}),
-			arrUsers,
 			arrUsersPromise = new Promise(function(resolve, reject) {
 				return ajaxServiceObj.getJSONasync('./auth.json', function(res) {
 					resolve(res.users);
