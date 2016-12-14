@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"ajax",
+				"ajaxPromise"
+			],
+			[
+				"auth",
+				"authorize"
+			],
+			[
+				"_ge",
+				"_getJSONasync"
+			],
+			[
+				"get",
+				"_getJSONasync"
+			],
+			[
+				"ca",
+				"callback"
+			],
+			[
+				"_",
+				"_getJSON"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -22,10 +46,6 @@
 			[
 				"mess",
 				"messageElem"
-			],
-			[
-				"get",
-				"getAttribute"
 			],
 			[
 				"inpu",
@@ -494,45 +514,53 @@
 			[
 				"ce",
 				"cellspacing\tAttr"
-			],
-			[
-				"eac",
-				"eachInputValue"
-			],
-			[
-				"fon",
-				"font-family"
-			],
-			[
-				"fot",
-				"font-size"
-			],
-			[
-				"te",
-				"testStr"
-			],
-			[
-				"ar",
-				"arrDouble"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "7 week/app2/auth.json",
+			"file": "7 week/app2/login.js",
 			"settings":
 			{
-				"buffer_size": 175,
+				"buffer_size": 1205,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "7 week/app2/login.html",
+			"file": "8 week/app/index.html",
 			"settings":
 			{
-				"buffer_size": 1677,
+				"buffer_size": 526,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "8 week/app/index.js",
+			"settings":
+			{
+				"buffer_size": 482,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "index.js"
+			}
+		},
+		{
+			"file": "8 week/app/articles.json",
+			"settings":
+			{
+				"buffer_size": 850,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/student/Desktop/login.js",
+			"settings":
+			{
+				"buffer_size": 1363,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -542,24 +570,6 @@
 			"settings":
 			{
 				"buffer_size": 2121,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "7 week/app2/login.js",
-			"settings":
-			{
-				"buffer_size": 880,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "7 week/app2/services/ajax_service.js",
-			"settings":
-			{
-				"buffer_size": 713,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -601,25 +611,22 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week/app",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/6 week/app2",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/6 week/app2/templates",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/services"
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/services",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/8 week",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/8 week/app"
 	],
 	"file_history":
 	[
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/login.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/services/ajax_service.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/auth.json",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/login.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/basic.sublime-project",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/login.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/index.html",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/5 week/app/login.html",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/services/ajax_service.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/ajax_service.js",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/auth.json",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/basic.sublime-project",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/basic.sublime-workspace",
 		"/C/Users/student/Downloads/03 12 2016/dzb.com/web/models/model_category.php",
 		"/C/Users/student/Downloads/03 12 2016/dzb.com/web/controllers/controller_category.php",
@@ -758,6 +765,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			",\n\t\t{\n\t\t\t\"path\": \"7 week\"\n\t\t}",
 			"DONE",
 			"*\n",
 			"]\n",
@@ -889,26 +897,53 @@
 			[
 				{
 					"buffer": 0,
-					"file": "7 week/app2/auth.json",
+					"file": "7 week/app2/login.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 175,
+						"buffer_size": 1205,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								43,
-								43
+								1205,
+								1205
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 116.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "8 week/app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -918,12 +953,41 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "7 week/app2/login.html",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "8 week/app/index.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1677,
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "8 week/app/articles.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 850,
 						"regions":
 						{
 						},
@@ -936,8 +1000,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -947,7 +1012,36 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
+					"file": "/C/Users/student/Desktop/login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "7 week/app2/index.html",
 					"semi_transient": false,
 					"settings":
@@ -969,64 +1063,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "7 week/app2/login.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 880,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								679,
-								679
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "7 week/app2/services/ajax_service.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 713,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								57,
-								57
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
