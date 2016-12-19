@@ -1,56 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Занятие 18 14.12.2016 Ср -->
-<!--  
-pwd - Print Working Directory
-cd - Change Directory
-ls - List files
-	-a (all)
-	-l (long)
+<!-- Занятие 19 14.12.2016 Ср -->
+<!-- 
+git diff 
+	разница между последним коммитом и unstaged изменениями
+git diff --cached
+git diff --staged
+	тоже самое только staged изменения
+git reset HEAD index.html
+	подготоваить откат index.html к HEAD, т.е. последнему коммиту
+git checkout -- index.html
+	откатить файл index.html в соответствии с предыдущей коммандой
+git reset HEAD^ index.html
+git reset HEAD^^ index.html
+	подготовить откат на 1 или 2 коммита вверх. Так можно сколько угодно вверх делать
+git remote add origin %remote_url%
+	добавить удаленный репозиторий
+git remote -v
+	показать все удаленные репозитории
+git push -u origin master
+	выгружаем первый раз на удаленку
+git clone %remote_url%
+	клонируем репозиторий
 
-drwxrwxrwx
-d - директория или файл
-rwx - owner
-rwx - owner group
-rwx - other
-r - read
-w - write
-x - execute
-
-chmod - change mode
-	-R (recursive)
-
-rw- r-- r--
-110 100 100
- 6   4   4
-
-rwx rwx rwx
- 7   7   7
-
-touch - создать файл
-rm - remove
-	-r (recursive)
-	-f (не переспрашивать)
-
-git config --global user.name
-git config --global user.email
-
-git init
-
-git status
-red = untracked
-green = tracked
-
-git add "*.html"
-add all html files in THE WHOLE PROJECT
-
-git commit -m "Commit message"
-
-
- -->
+	-->
 	<meta charset="UTF-8">
-	<title>Git Bash</title>
+	<title>Git Diff, откат, ветки</title>
 </head>
 <body>
 	
