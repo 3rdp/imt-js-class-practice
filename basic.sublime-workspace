@@ -519,6 +519,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "9 week/app2/gitLearn/progA/index.html",
+			"settings":
+			{
+				"buffer_size": 415,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "9 week/app2/index.html",
+			"settings":
+			{
+				"buffer_size": 962,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "9 week/app/gitLearn/progA/index.html",
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -556,14 +582,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/7 week/app2/services",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/8 week",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/8 week/app",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app/gitLearn",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app/gitLearn/progA"
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app/gitLearn/progA",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn/progA"
 	],
 	"file_history":
 	[
@@ -840,8 +866,93 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "9 week/app2/gitLearn/progA/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "9 week/app2/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								858,
+								858
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "9 week/app/gitLearn/progA/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -930,7 +1041,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 142.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
