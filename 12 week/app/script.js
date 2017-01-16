@@ -4,7 +4,7 @@ $(document).ready(function(){
 	// })
 	var elems = $("#bar");
 	// elems.click(function(){
-	elems.on('click', '>li', function(){
+	elems.on('click', '>li', function(){ // только так будет работать на динамически добавленных элементах
 		$(this).toggleClass("highlight");
 	})
 

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"li",
+				"liLength"
+			],
+			[
 				"ajax",
 				"ajaxPromise"
 			],
@@ -238,10 +242,6 @@
 			[
 				"di",
 				"div\tTag"
-			],
-			[
-				"li",
-				"li\tTag"
 			],
 			[
 				"mongo",
@@ -520,28 +520,32 @@
 	"buffers":
 	[
 		{
-			"file": "9 week/app2/gitLearn/progA/index.html",
+			"file": "10 week/app/index.html",
 			"settings":
 			{
-				"buffer_size": 415,
+				"buffer_size": 543,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "9 week/app2/index.html",
+			"file": "12 week/app/index.html",
 			"settings":
 			{
-				"buffer_size": 962,
+				"buffer_size": 945,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "9 week/app/gitLearn/progA/index.html",
+			"contents": "$(document).ready(function(){\n\t// $(\"#spoilerHead\").click(function(){\n\t// \t$(this).next().fadeToggle(1000);\n\t// })\n\tvar elems = $(\"#bar\");\n\t// elems.click(function(){\n\telems.on('click', '>li', function(){ // только так будет работать на динамически добавленных элементах\n\t\t$(this).toggleClass(\"highlight\");\n\t})\n\n\t$('#add').on('click', function(){\n\t\t// insertBefore\n\t\t// insertAfter\n\t\t// before\n\t\t// after\n\t\t// appendTo\n\t\t// prependTo\n\t\t// append\n\t\t// prepend\n\t\tvar liLength = $('#bar li').length;\n\t\t$('#bar').append('<li>Пункт '+ ++liLength +'</li>');\n\t})\n})",
+			"file": "12 week/app/script.js",
+			"file_size": 519,
+			"file_write_time": 131286290174818456,
 			"settings":
 			{
-				"buffer_size": 121,
+				"buffer_size": 558,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -582,18 +586,22 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/8 week",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/8 week/app",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app/gitLearn/progA",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn/progA"
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn/progA",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/10 week/app",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app"
 	],
 	"file_history":
 	[
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn/progA/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/10 week/app/index.html",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app/gitLearn/progA/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/10 week/app/style.css",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app/index.html",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/8 week/app/articles.json",
 		"/C/Users/student/Desktop/login.js",
@@ -716,11 +724,7 @@
 		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName (недоделал)/package.json",
 		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/views/index.html",
 		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/app.js",
-		"/C/nodeMay/project_test/app.js",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/package.json",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat/views/index.html",
-		"/C/nodeMay/fire_poker/handlers/registration/registration.css",
-		"/C/nodeMay/project_test/views/tamplates/tamplates.ejs"
+		"/C/nodeMay/project_test/app.js"
 	],
 	"find":
 	{
@@ -871,75 +875,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "9 week/app2/gitLearn/progA/index.html",
+					"file": "10 week/app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 415,
+						"buffer_size": 543,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								404,
-								404
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 38.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "9 week/app2/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 962,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								858,
-								858
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "9 week/app/gitLearn/progA/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								90,
+								90
 							]
 						],
 						"settings":
@@ -951,6 +899,63 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "12 week/app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "12 week/app/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 32.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
