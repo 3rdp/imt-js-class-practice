@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getUserInfo"
+			],
+			[
+				"sh",
+				"showNameGood2"
+			],
+			[
+				"show",
+				"showNameGood"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
 				"li",
 				"liLength"
 			],
@@ -20,20 +36,12 @@
 				"_getJSONasync"
 			],
 			[
-				"get",
-				"_getJSONasync"
-			],
-			[
 				"ca",
 				"callback"
 			],
 			[
 				"_",
 				"_getJSON"
-			],
-			[
-				"fun",
-				"function"
 			],
 			[
 				"obj",
@@ -506,45 +514,35 @@
 			[
 				"do",
 				"document"
-			],
-			[
-				"pre",
-				"preventDefault"
-			],
-			[
-				"ce",
-				"cellspacing\tAttr"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "10 week/app/index.html",
+			"file": "12 week/app2/form/index.html",
 			"settings":
 			{
-				"buffer_size": 543,
+				"buffer_size": 564,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "index.html"
+			}
+		},
+		{
+			"file": "12 week/app2/form/lib.js",
+			"settings":
+			{
+				"buffer_size": 366,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "12 week/app/index.html",
+			"file": "12 week/app2/form/script.js",
 			"settings":
 			{
-				"buffer_size": 945,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "$(document).ready(function(){\n\t// $(\"#spoilerHead\").click(function(){\n\t// \t$(this).next().fadeToggle(1000);\n\t// })\n\tvar elems = $(\"#bar\");\n\t// elems.click(function(){\n\telems.on('click', '>li', function(){ // только так будет работать на динамически добавленных элементах\n\t\t$(this).toggleClass(\"highlight\");\n\t})\n\n\t$('#add').on('click', function(){\n\t\t// insertBefore\n\t\t// insertAfter\n\t\t// before\n\t\t// after\n\t\t// appendTo\n\t\t// prependTo\n\t\t// append\n\t\t// prepend\n\t\tvar liLength = $('#bar li').length;\n\t\t$('#bar').append('<li>Пункт '+ ++liLength +'</li>');\n\t})\n})",
-			"file": "12 week/app/script.js",
-			"file_size": 519,
-			"file_write_time": 131286290174818456,
-			"settings":
-			{
-				"buffer_size": 558,
+				"buffer_size": 287,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -557,16 +555,24 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 173.0,
-		"last_filter": "insta",
+		"height": 104.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -586,20 +592,25 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/8 week/app",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn/progA",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/10 week/app",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app"
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2"
 	],
 	"file_history":
 	[
+		"/C/Users/student/AppData/Local/Temp/fz3temp-2/product.tpl",
+		"/C/Users/student/AppData/Local/Temp/fz3temp-2/double_glasses.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/lib.awesome.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/lib.good.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/lib.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/script.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/good_lib.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/10 week/app/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app/script.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/gitLearn/progA/index.html",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app2/index.html",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/10 week/app/index.html",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app/gitLearn/progA/index.html",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/10 week/app/style.css",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/9 week/app/index.html",
@@ -714,17 +725,7 @@
 		"/C/OpenServer/domains/mvc.com/application/core/controller.php",
 		"/C/OpenServer/domains/mvc.com/application/controllers/controller_404.php",
 		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/processaddmovie.php",
-		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/addmovie.php",
-		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/test.php",
-		"/C/OpenServer/domains/site.com/index.html",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName+печатает/app.js",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName+печатает/views/index.html",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName (недоделал)/app.js",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName (недоделал)/views/index.html",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/Chat + nickName (недоделал)/package.json",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/views/index.html",
-		"/C/Users/Администратор/Desktop/JS Шинкаренко Максим/Socket IO/app.js",
-		"/C/nodeMay/project_test/app.js"
+		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/addmovie.php"
 	],
 	"find":
 	{
@@ -743,6 +744,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"(o)",
+			"o",
+			"\";\n",
+			"*\n",
+			");",
 			",\n\t\t{\n\t\t\t\"path\": \"7 week\"\n\t\t}",
 			"DONE",
 			"*\n",
@@ -870,58 +876,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "10 week/app/index.html",
+					"file": "12 week/app2/form/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 543,
+						"buffer_size": 564,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								90,
-								90
+								128,
+								128
 							]
 						],
 						"settings":
 						{
+							"auto_name": "index.html",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "12 week/app/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 945,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								257,
-								257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -931,27 +909,55 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "12 week/app/script.js",
+					"buffer": 1,
+					"file": "12 week/app2/form/lib.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 558,
+						"buffer_size": 366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								311,
+								311
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
-						"translation.x": 32.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "12 week/app2/form/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
