@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"request"
+			],
+			[
+				"inde",
+				"indexOfVictim"
+			],
+			[
+				"coun",
+				"counter"
+			],
+			[
 				"get",
 				"getUserInfo"
 			],
@@ -288,10 +300,6 @@
 				"console"
 			],
 			[
-				"re",
-				"return"
-			],
-			[
 				"r",
 				"return"
 			],
@@ -506,47 +514,11 @@
 			[
 				"nu",
 				"number1"
-			],
-			[
-				"num",
-				"number1"
-			],
-			[
-				"do",
-				"document"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "12 week/app2/form/index.html",
-			"settings":
-			{
-				"buffer_size": 564,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "index.html"
-			}
-		},
-		{
-			"file": "12 week/app2/form/lib.js",
-			"settings":
-			{
-				"buffer_size": 366,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "12 week/app2/form/script.js",
-			"settings":
-			{
-				"buffer_size": 287,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -592,19 +564,54 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2"
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app2",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/echoServer",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/server"
 	],
 	"file_history":
 	[
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/readme.md",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/server/index.js",
+		"/C/Users/student/Desktop/app.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/app.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/users/index.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/users/userClass.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/echoServer/echoServer.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app2/readme.md",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/users/userDb.json",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app/index.html",
+		"/C/OpenServer/domains/phpimt.com/variables.php",
+		"/C/OpenServer/domains/phpimt.com/for.html",
+		"/C/OpenServer/domains/dmobilemvc.com/web/application/views/basket_view.php",
+		"/C/OpenServer/domains/mvc.com/admin/core/db.php",
+		"/C/OpenServer/domains/mvc.com/admin/core/route.php",
+		"/C/OpenServer/domains/mvc.com/admin/core/view.php",
+		"/C/OpenServer/domains/phpdz.com/dz5/route.php",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app/script.js",
+		"/C/OpenServer/domains/phpimt.com/index2.php",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app/workers/script.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app/workers/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/13 week/app2/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/13 week/app2/дз/script.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app/oop/script.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/13 week/app2/объекты/script.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/script.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/13 week/app/index.html",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/index.html",
+		"/C/Users/student/Desktop/tren/замыкания, модули/script.js",
+		"/C/Users/student/Desktop/tren/объекты/script.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/form/script.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/form/lib.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/form/index.html",
 		"/C/Users/student/AppData/Local/Temp/fz3temp-2/product.tpl",
 		"/C/Users/student/AppData/Local/Temp/fz3temp-2/double_glasses.js",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/index.html",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/lib.awesome.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/lib.good.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/lib.js",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/script.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app2/good_lib.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/12 week/app/index.html",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/10 week/app/index.html",
@@ -694,38 +701,7 @@
 		"/C/OpenServer/domains/mvc.com/web/views/sign_view.php",
 		"/C/OpenServer/domains/shop.com/include/db_connect.php",
 		"/C/OpenServer/domains/shop.com/index.php",
-		"/C/OpenServer/domains/mvc/web/views/template_view.php",
-		"/C/node/ChessGame.io-master/views/pages/game.ejs",
-		"/C/node/ChessGame.io-master/app/routes.js",
-		"/C/node/ChessGame.io-master/views/pages/selectGame.ejs",
-		"/C/node/ChessGame.io-master/package.json",
-		"/C/node/ChessGame.io-master/views/css/main.css",
-		"/C/nodeMay/Project_git/index.html",
-		"/C/Users/Администратор/Desktop/Chess/Chess/pawn.js",
-		"/C/Users/Администратор/Desktop/Chess/Chess/jquery-2.2.3.min.js",
-		"/C/Users/Администратор/Desktop/Chess/Chess/super_figure.js",
-		"/C/Users/Администратор/Desktop/Chess/Chess/chess.js",
-		"/C/Users/Администратор/Desktop/Chess/Chess/bishop.js",
-		"/C/node/ChessGame.io-master/server.js",
-		"/C/node/ChessGame.io-master/views/css/style.css",
-		"/C/node/socketIo/app.js",
-		"/C/node/socketIo/views/index.html",
-		"/C/node/ChessGame.io-master/config/database.js",
-		"/C/OpenServer/domains/hello.com/urok4/index",
-		"/C/OpenServer/domains/hello.com/urok4/index.php",
-		"/C/OpenServer/domains/hello.com/urok4/function.php",
-		"/C/OpenServer/domains/hello.com/urok4/function",
-		"/D/dz2/index.php",
-		"/C/OpenServer/domains/hello.com/dz/index.php",
-		"/C/OpenServer/domains/mvc.com/application/controllers/controller_portfolio.php",
-		"/C/Users/Администратор/Downloads/lessons 01.10.16/learn.com/test.php",
-		"/C/OpenServer/domains/mvc.com/index.php",
-		"/C/OpenServer/domains/learn.com/test.php",
-		"/C/OpenServer/domains/mvc.com/application/core/model.php",
-		"/C/OpenServer/domains/mvc.com/application/core/controller.php",
-		"/C/OpenServer/domains/mvc.com/application/controllers/controller_404.php",
-		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/processaddmovie.php",
-		"/C/Users/Администратор/Downloads/learn.com.dz/learn.com/addmovie.php"
+		"/C/OpenServer/domains/mvc/web/views/template_view.php"
 	],
 	"find":
 	{
@@ -744,6 +720,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\";\n",
+			"$%&#@",
+			"зарплате",
 			"(o)",
 			"o",
 			"\";\n",
@@ -876,94 +855,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "12 week/app2/form/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 564,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								128,
-								128
-							]
-						],
-						"settings":
-						{
-							"auto_name": "index.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "12 week/app2/form/lib.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								311,
-								311
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "12 week/app2/form/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								275,
-								275
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
