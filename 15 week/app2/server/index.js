@@ -3,10 +3,11 @@ var express = require('express');
 
 var app = express();
 
+app.set('view engine', 'ejs'); // 
+
 app.get('/', function(req, res) {
 	res
-		.type('text/html')
-		.send('<h1>Main page</h1>');
+		.render("template")
 })
 
 app.get('/about', function(req, res) {
