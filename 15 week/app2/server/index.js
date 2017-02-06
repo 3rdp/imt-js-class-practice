@@ -8,14 +8,16 @@ app.set('view engine', 'ejs'); //
 app.get('/', function(req, res) {
 	res
 		.render("template", {
-			page:"main"
+			page:"main",
+			aniss: "sdfasd"
 		})
 })
 
 app.get('/about', function(req, res) {
 	res
-		// .type('text/html') // так тоже работает вроде
-		.send('<h1>About</h1>');
+		.render("template", {
+			page:"about"
+		})
 })
 
 app.get('/profile', function(req, res) {

@@ -10,7 +10,14 @@
 	<% include partials/sidebar %>
 
 	<h1>Контент</h1>
-	<%=page%>
+
+	<% if (page == "main") { %>
+		<% include main %>
+	<% } %>
+
+	<% if (page == "about") { %>
+		<% include about %>
+	<% } %>
 
 	<% include partials/footer %>
 
