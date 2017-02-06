@@ -7,7 +7,9 @@ app.set('view engine', 'ejs'); //
 
 app.get('/', function(req, res) {
 	res
-		.render("template")
+		.render("template", {
+			page:"main"
+		})
 })
 
 app.get('/about', function(req, res) {
@@ -31,9 +33,11 @@ app.get('/game', function(req, res) {
 // 404
 app.use(function(req, res) {
 	res
-		.type('text/html')
 		.status(404)
-		.send('<h1>Not Found</h1>');
+		.render("template", {
+			page:"404"
+		})
+		
 })
 
 // 505
