@@ -527,10 +527,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
-		"last_filter": "install",
+		"height": 127.0,
+		"last_filter": "remove",
 		"selected_items":
 		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -544,7 +548,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 416.0
+		"width": 432.0
 	},
 	"console":
 	{
@@ -564,18 +568,30 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/14 week/app2",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/echoServer",
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/server"
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/server",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/server",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/views",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/views/partials"
 	],
 	"file_history":
 	[
-		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/readme.md",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/readme.md",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/server/index.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/app.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/views/main.ejs",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/server/index.js",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/views/partials/header.ejs",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/views/about.ejs",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/views/template.ejs",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/views/partials/footer.ejs",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app2/views/partials/sidebar.ejs",
+		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/readme.md",
 		"/C/Users/student/Desktop/app.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/app.js",
 		"/C/Users/student/Documents/Sasha/imt-js-class-practice/15 week/app/users/index.js",
@@ -692,16 +708,7 @@
 		"/C/OpenServer/domains/hello.com/urok5/view/tamplate.tpl",
 		"/C/OpenServer/domains/hello.com/urok5/test.php",
 		"/C/OpenServer/domains/hello.com/urok5/view/404.php",
-		"/C/OpenServer/domains/hello.com/urok5/view/contacts.php",
-		"/C/OpenServer/domains/hello.com/urok5/view/about.php",
-		"/C/OpenServer/domains/hello.com/dz3/main.php",
-		"/C/OpenServer/domains/mvc.com/web/models/model_user.php",
-		"/C/OpenServer/domains/mvc.com/web/lib/functions.php",
-		"/C/OpenServer/domains/mvc.com/web/controllers/controller_user.php",
-		"/C/OpenServer/domains/mvc.com/web/views/sign_view.php",
-		"/C/OpenServer/domains/shop.com/include/db_connect.php",
-		"/C/OpenServer/domains/shop.com/index.php",
-		"/C/OpenServer/domains/mvc/web/views/template_view.php"
+		"/C/OpenServer/domains/hello.com/urok5/view/contacts.php"
 	],
 	"find":
 	{
@@ -720,6 +727,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".ejs",
 			"\";\n",
 			"$%&#@",
 			"зарплате",
