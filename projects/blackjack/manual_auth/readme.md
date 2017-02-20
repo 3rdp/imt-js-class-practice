@@ -1,0 +1,1 @@
+Сделал этот мануал https://scotch.io/tutorials/easy-node-authentication-setup-and-local
