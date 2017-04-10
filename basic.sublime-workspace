@@ -209,7 +209,7 @@
 			],
 			[
 				"whi",
-				"while\twhile …"
+				"while	while …"
 			],
 			[
 				"a",
@@ -261,7 +261,7 @@
 			],
 			[
 				"di",
-				"div\tTag"
+				"div	Tag"
 			],
 			[
 				"mongo",
@@ -445,11 +445,11 @@
 			],
 			[
 				"ti",
-				"tabindex\tAttr"
+				"tabindex	Attr"
 			],
 			[
 				"aut",
-				"autofocus\tAttr"
+				"autofocus	Attr"
 			],
 			[
 				"inl",
@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "18 week/app2/script.ts",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -568,16 +576,13 @@
 	},
 	"expanded_folders":
 	[
-		"/E/code/imt-js-class-practice/14 week/app2",
-		"/E/code/imt-js-class-practice/15 week/app",
-		"/E/code/imt-js-class-practice/15 week/app2",
-		"/E/code/imt-js-class-practice/16 week/app2",
-		"/E/code/imt-js-class-practice/16 week/app2/server",
-		"/E/code/imt-js-class-practice/projects/blackjack/manual_auth",
-		"/E/code/imt-js-class-practice/projects/blackjack/manual_auth/config"
+		"/home/sasha/projects/imt-js-class-practice/16 week/app2",
+		"/home/sasha/projects/imt-js-class-practice/18 week",
+		"/home/sasha/projects/imt-js-class-practice/18 week/app2"
 	],
 	"file_history":
 	[
+		"/home/sasha/projects/imt-js-class-practice/tsconfig.json",
 		"/E/code/imt-js-class-practice/15 week/app2/readme.md",
 		"/E/code/imt-js-class-practice/15 week/app/readme.md",
 		"/E/code/imt-js-class-practice/projects/blackjack/manual_auth/views/views/profile.ejs",
@@ -704,8 +709,7 @@
 		"/C/code/imt-js-class-practice/basic.sublime-project",
 		"/C/code/imt-js-class-practice/4 week/calc/calculator_template/calculator_template.sublime-project",
 		"/C/code/imt-js-class-practice/1 week/project/index.html",
-		"/C/code/imt-js-class-practice/1 week/project/basic.sublime-project",
-		"/C/code/imt-js-class-practice/1 week/project/basic.sublime-workspace"
+		"/C/code/imt-js-class-practice/1 week/project/basic.sublime-project"
 	],
 	"find":
 	{
@@ -733,7 +737,7 @@
 			"\";\n",
 			"*\n",
 			");",
-			",\n\t\t{\n\t\t\t\"path\": \"7 week\"\n\t\t}",
+			",\n		{\n			\"path\": \"7 week\"\n		}",
 			"DONE",
 			"*\n",
 			"]\n",
@@ -780,32 +784,32 @@
 			"country",
 			",\n",
 			">\n",
-			"$(document).on(\"click\",\"a.change-profile\", function(){\n\t\t$('.change-profile-form').slideToggle();\n\t})",
-			".change-profile {\n\tdisplay: block;\n\tmax-width: 200px;\n\tbackground-color: #333333;\n\tborder-radius: 10px;\n\tborder: 1px solid #000;\n\ttext-align: center;\n\theight: 30px;\n\tpadding-top: 10px;\n}",
+			"$(document).on(\"click\",\"a.change-profile\", function(){\n		$('.change-profile-form').slideToggle();\n	})",
+			".change-profile {\n	display: block;\n	max-width: 200px;\n	background-color: #333333;\n	border-radius: 10px;\n	border: 1px solid #000;\n	text-align: center;\n	height: 30px;\n	padding-top: 10px;\n}",
 			"\"],",
-			".change-profile-form {\n\tmax-width: 500px;\n\tmargin: 20px auto;\n\tpadding: 15px;\n\tborder-radius: 10px;\n\tborder: 1px solid #ebebeb;\n}",
+			".change-profile-form {\n	max-width: 500px;\n	margin: 20px auto;\n	padding: 15px;\n	border-radius: 10px;\n	border: 1px solid #ebebeb;\n}",
 			"\">\n",
 			"Город",
 			"Country",
 			"\">\n",
-			"ul li {\n\tlist-style-type: none;\n\tdisplay: inline-block;\n\tmargin-right: 20px;\n}",
+			"ul li {\n	list-style-type: none;\n	display: inline-block;\n	margin-right: 20px;\n}",
 			"\">\n",
-			"<% if(page == \"index\"){%>\n\t<% include ../index %>\n<%}%>",
-			"app.get('/registration', function(req, res){\n\tres.render('template/template.ejs', {page:\"registration\", test: \"hello\"})\n});",
+			"<% if(page == \"index\"){%>\n	<% include ../index %>\n<%}%>",
+			"app.get('/registration', function(req, res){\n	res.render('template/template.ejs', {page:\"registration\", test: \"hello\"})\n});",
 			"=\"\"></",
 			"></",
 			"min",
 			"signup",
-			"<% if(page == \"index\"){%>\n\t<% include ../index %>\n<%}%>",
+			"<% if(page == \"index\"){%>\n	<% include ../index %>\n<%}%>",
 			">",
 			"){});\n",
 			"){});",
 			"app.get('/', function(req, res){\n\n});",
-			"app.use(function(req, res){\n\tres.type('text/plain');\n\tres.status(404);\n\tres.send(\"404 - not found\");\n});",
+			"app.use(function(req, res){\n	res.type('text/plain');\n	res.status(404);\n	res.send(\"404 - not found\");\n});",
 			"newUser",
 			"usernameField : 'email',",
 			"usernameField",
-			" // if (condition) {\n // \t# code...\n // }",
+			" // if (condition) {\n // 	# code...\n // }",
 			",\n",
 			"();\n",
 			"Cashbox",
@@ -815,17 +819,17 @@
 			");\n",
 			"'));\n",
 			"roun",
-			"$(document).on(\"click\", '.minus', function(){\n\t\tvar quantity = Number( Math.floor($('.quantity').text()));\n\t\tif(quantity === 0){\n\t\t\treturn false;\n\t\t} else {\n\t\t\tquantity--;\n\t\t\t$('.quantity').text(quantity);\n\t\t}\n\t})",
+			"$(document).on(\"click\", '.minus', function(){\n		var quantity = Number( Math.floor($('.quantity').text()));\n		if(quantity === 0){\n			return false;\n		} else {\n			quantity--;\n			$('.quantity').text(quantity);\n		}\n	})",
 			",\n",
 			"2",
 			",\n",
-			"Cashbox.prototype.increase = function clickPlus(){\n\t\t\n\t}",
-			"span.minus {\n\tfont-size: 20px;\n\tcolor:red;\n\ttext-align: center;\n}\nspan.plus {\n\tfont-size: 20px;\n\tcolor:green;\n\ttext-align: center;\n}",
-			"span.plus {\n\tfont-size: 16px;\n\tcolor:green;\n}",
-			"span.minus {\n\tfont-size: 16px;\n\tcolor:red;\n}",
-			"p {\n\tfont-size: 18px;\n}",
-			".column-left {\n\tdisplay: inline-block;\n\twidth: 49%;\n\tvertical-align: top;\n}",
-			"\n\t\t<p data-quantity=\"500\">500 <span class=\"minus\">-</span><span class=\"quantity\">0</span><span class=\"plus\">+</span></p>",
+			"Cashbox.prototype.increase = function clickPlus(){\n		\n	}",
+			"span.minus {\n	font-size: 20px;\n	color:red;\n	text-align: center;\n}\nspan.plus {\n	font-size: 20px;\n	color:green;\n	text-align: center;\n}",
+			"span.plus {\n	font-size: 16px;\n	color:green;\n}",
+			"span.minus {\n	font-size: 16px;\n	color:red;\n}",
+			"p {\n	font-size: 18px;\n}",
+			".column-left {\n	display: inline-block;\n	width: 49%;\n	vertical-align: top;\n}",
+			"\n		<p data-quantity=\"500\">500 <span class=\"minus\">-</span><span class=\"quantity\">0</span><span class=\"plus\">+</span></p>",
 			"<p data-quantity=\"500\">500 <span class=\"minus\">-</span><span class=\"quantity\">0</span><span class=\"plus\">+</span></p>",
 			">\n",
 			"\";\n",
@@ -860,8 +864,44 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "18 week/app2/script.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "49e9ad99",
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/ArcticTypescript/theme/Typescript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
