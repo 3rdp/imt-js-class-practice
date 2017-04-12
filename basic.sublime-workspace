@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"cars",
+				"cars_props"
+			],
+			[
+				"pro",
+				"propmpt_msg"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"se",
+				"second"
+			],
+			[
 				"re",
 				"request"
 			],
@@ -352,10 +368,6 @@
 				"require"
 			],
 			[
-				"pro",
-				"prompt"
-			],
-			[
 				"su",
 				"success"
 			],
@@ -460,10 +472,6 @@
 				"ChildEmpty"
 			],
 			[
-				"se",
-				"secondsTimer"
-			],
-			[
 				"marg",
 				"margin"
 			],
@@ -506,24 +514,27 @@
 			[
 				"Jho",
 				"John"
-			],
-			[
-				"fi",
-				"firstNumber"
-			],
-			[
-				"nu",
-				"number1"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "18 week/app2/script.ts",
+			"file": "19 week/app/package.json",
 			"settings":
 			{
-				"buffer_size": 274,
+				"buffer_size": 325,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// es5 \"класс\"\n// function User() {\n// 	this.id;\n// 	this.name;\n// }\n// User.prototype.getInfo = function() {\n// 	alert this.name;\n// }\n// var user = new User(1, \"John\");\n\n\nclass User {\n	id: number;\n	name: string;\n\n	getInfo():string {\n		return this.name;\n	}\n\n	constructor(id: number, name: string) {\n		this.id = id;\n		this.name = name;\n	}\n}\nvar user = new User(1, \"John\");\n\n/*\n	Модификаторы:\n	\n*/",
+			"file": "19 week/app/script.ts",
+			"file_size": 377,
+			"file_write_time": 131364868806695925,
+			"settings":
+			{
+				"buffer_size": 396,
 				"line_ending": "Unix"
 			}
 		}
@@ -576,12 +587,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/sasha/projects/imt-js-class-practice/16 week/app2",
-		"/home/sasha/projects/imt-js-class-practice/18 week",
-		"/home/sasha/projects/imt-js-class-practice/18 week/app2"
+		"/home/sasha/projects/imt-js-class-practice/18 week/app2",
+		"/home/sasha/projects/imt-js-class-practice/19 week",
+		"/home/sasha/projects/imt-js-class-practice/19 week/app"
 	],
 	"file_history":
 	[
+		"/home/sasha/projects/imt-js-class-practice/18 week/app2/script.ts",
+		"/home/sasha/projects/imt-js-class-practice/18 week/app2/index.html",
+		"/home/sasha/projects/imt-js-class-practice/18 week/app2/compiled.js",
+		"/home/sasha/projects/imt-js-class-practice/18 week/app2/.gitignore",
+		"/home/sasha/projects/imt-js-class-practice/18 week/app2/gulpfile.js",
+		"/home/sasha/projects/imt-js-class-practice/18 week/app2/script.js",
 		"/home/sasha/projects/imt-js-class-practice/tsconfig.json",
 		"/E/code/imt-js-class-practice/15 week/app2/readme.md",
 		"/E/code/imt-js-class-practice/15 week/app/readme.md",
@@ -703,13 +720,7 @@
 		"/C/Users/Администратор/Documents/Sasha/imt-js-class-practice/5 week/app/singup.html",
 		"/C/Users/Администратор/Documents/Sasha/imt-js-class-practice/5 week/index.html",
 		"/C/code/imt-js-class-practice/3 week/homework1.html",
-		"/C/code/imt-js-class-practice/3 week/js/script1.js",
-		"/C/code/imt-js-class-practice/4 week/calc/examples/calc.html",
-		"/C/code/imt-js-class-practice/3 week/js/script2.js",
-		"/C/code/imt-js-class-practice/basic.sublime-project",
-		"/C/code/imt-js-class-practice/4 week/calc/calculator_template/calculator_template.sublime-project",
-		"/C/code/imt-js-class-practice/1 week/project/index.html",
-		"/C/code/imt-js-class-practice/1 week/project/basic.sublime-project"
+		"/C/code/imt-js-class-practice/3 week/js/script1.js"
 	],
 	"find":
 	{
@@ -728,6 +739,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cars_props",
+			"cars_props[i]",
+			"cars_props[i]]",
+			"var",
+			"let",
 			".ejs",
 			"\";\n",
 			"$%&#@",
@@ -864,36 +880,69 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "18 week/app2/script.ts",
+					"file": "19 week/app/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 274,
+						"buffer_size": 325,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								274,
-								274
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "json",
+							"buffer_scroll_name": "6702ba13",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "19 week/app/script.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
 							]
 						],
 						"settings":
 						{
 							"auto_complete": true,
 							"bs_sintax": "typescript",
-							"buffer_scroll_name": "49e9ad99",
+							"buffer_scroll_name": "23999057",
 							"extensions":
 							[
 								"ts"
 							],
-							"syntax": "Packages/ArcticTypescript/theme/Typescript.tmLanguage"
+							"syntax": "Packages/ArcticTypescript/theme/Typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -902,6 +951,11 @@
 					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -922,11 +976,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
